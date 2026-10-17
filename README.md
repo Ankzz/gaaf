@@ -51,3 +51,17 @@ scratch in the correct order, run:
 ```
 
 Use `./run_experiments.sh --help` to list the available options.
+
+## Results
+
+### Battery state of charge and safety reserve
+
+![Seven-day battery state-of-charge traces with the mandated 40% reserve and tariff spike.](figures/fig1_battery_soc_sla.png)
+
+### FDIA attack detection and mitigation
+
+![Day 6 false-data injection attack, spoofed telemetry, and security veto response.](figures/fig2_fdia_event_override.png)
+
+### Cost and latency comparison
+
+![Comparative operating costs and decision latencies for the benchmark methods.](figures/fig3_comparative_metrics.png)
